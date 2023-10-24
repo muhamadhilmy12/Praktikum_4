@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>biodata saya</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: green;
+  width: 100%;
+        height: 90px; margin: 4px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; 
+  background:aquamarine;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:purple;
+  height: 300px; 
+  color: white;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>My Hoby</h2>
+</header>
+
+<section>
+  <nav>
+    <p>Baca Buku</p>
+ <img src="https://assets-a1.kompasiana.com/items/album/2021/06/09/804ab2a078e8548775aa55eb68943f9f-60c0c78dd541df57d633a452.jpg"width="250px" height="150px">
+    <p>Nonton film</p>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMokkmhXrns8_OdwstOuH4rhDANuRKem4hQ&usqp=CAU"width="250px" height="150px">
+    <p>Badminton</p>
+ <img src="https://www.blibli.com/friends-backend/wp-content/uploads/2017/02/pexels-vlad-vasnetsov-2202685-scaled.jpg"width="250px" height="150px">
+</nav>
+  
+  <article>
+    <h1>Description My Hoby</h1>
+    <p>1. Membaca buku novel fiksi,Membaca  merupakan salah satu kegiatan positif yang sudah selayaknya dijadikan rutinitas. Selain menambah wawasan atau pengetahuan, ternyata manfaat membaca buku fiksi dan nonfiksi juga dapat mengasah kepekaan rasa.</p> 
+    <p>2. Nonton film,Menonton Film Selain meredakan penat, menonton film bisa mengalihkan kita sementara dari hiruk-pikuk dunia nyata. Ada juga manfaat positif lain yang bisa kita dapat dari menonton film, bukan hanya sebagai hiburan yang kadang dianggap membuang-buang wakt </p>
+    <p>3. Badminton,Meningkatkan fungsi kognitif otak Bermain bulu tangkis bisa dibilang merupakan salah satu jenis olahraga otak. Volume aliran darah akan meningkat pesat dari jantung ke otak selama Anda aktif bergerak. Ini dapat meningkatkan kerja saraf dan meningkatkan massa otak. </p>
+  </article>
+
+  <article align="center" > <img src="https://asset.kompas.com/crops/fPl5r1G3KXbskdrjrJxk1InCebc=/429x39:5529x3439/780x390/data/photo/2021/05/10/609931bb5334c.jpg"width="300px" height="250px"></article>
+<footer>
+  <p>Thank You</p>
+</footer>
+
+</body>
+</html
