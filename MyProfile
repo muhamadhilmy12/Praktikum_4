@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .mainmain{
+        background-color: aqua;
+        height: 100px;
+        width: 90%;
+       }
+
+       .kolom1{
+        background-color: blue;
+        width: 50%;
+        height: 200px;
+        float: left;
+       }
+
+       .kolom2{
+        background-color: green;
+        width: 50%;
+        height: 200px;
+        float: left;
+       }
+
+       .kolom3{
+        background-color: purple;
+        width: 50%;
+        height: 200px;
+        float: left;
+       }   
+
+
+       .main{
+        background-color: white;
+       }
+    </style>
+</head>
+<body>
+    <table style="width: 70%;">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="IMG_20231023_172544.jpg" width="100">
+                </td>
+
+                <td>
+                    <h1>Profile Name</h1>
+                    <p>Nama: Muhamad Hilmy</p>
+                    <p>Alamat: Jl. parung panjang,Bogor</p>
+                    <p>Email: muhamadhilmy215@gmail.com</p>
+                    <p>NO HP:085716026889</p>
+                </td>
+
+                <td>
+                    <h3>Categories</h3>
+                    <p>profile</p>
+                    <p>introduction</p>
+                    <p>hobby</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="main">
+        <p>Perkenalkan saya Hilmy, saat ini saya menjadi mahasiswa di sekolah tinggi teknologi terpadu Nurul Fikri dengan program studi Sistem Informasi saat saya berumur 19 tahun tinggal di tangerang.</p>
+
+        <p>Hobi saya yaitu nonton film dari berbagai genre seperti romance, action dan lain lain, dan juga Baca buku fiksi seeprti novel sekian itu saja deskripsi singkat tentang saya </p>
+    </div>
+    <div class="kolom1">
+        <iframe src="https://www.youtube.com/embed/t9VWICGOD90?si=-n9XNRNtZz2qmb5j"></iframe>
+    </div>
+
+    <div class="kolom2">
+        <h1>Foto</h1></h1>
+        <img src="IMG_20231024_105505_130 (1).webp" width="100px" height="120px">
+    </div>
+
+    <div class="kolom3">
+        <h3>Attachment</h3>
+
+        <a href="https://youtube.com/@hitsrecords_?si=qF5WmWCYIbLz0JeS">
+            <img src="lambo.png" alt="" width="10">
+            OUR CHANNEL
+        </a>
+    </div>
+    
+
+</body>
+</htm
